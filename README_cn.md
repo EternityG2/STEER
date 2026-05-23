@@ -1,6 +1,6 @@
 # STEER：基于过程监督训练与奖励引导搜索的 Bug-Exposing Test Generation
 
-[English README](./README.md)
+[EN](./README.md)
 
 STEER 是一个用于生成 bug-exposing test case 的过程监督框架。给定编程题目描述和错误代码，模型需要生成一个测试用例，使其既能触发错误代码的 bug，又能给出正确的期望输出。STEER 使用任务相关的 Process Reward Model（PRM）在两个阶段发挥作用：训练阶段提供过程奖励，推理阶段引导候选推理路径搜索。
 

@@ -1,6 +1,6 @@
 # STEER: Enhancing Bug-Exposing Test Generation via Process-Supervised Training and Reward-Guided Search
 
-[中文说明](./README_cn.md)
+[CN](./README_cn.md)
 
 STEER is a process-supervised framework for bug-exposing test generation. Given a programming problem and an incorrect solution, the goal is to generate a test case that both exposes the bug and provides the correct expected output. STEER introduces a task-specific Process Reward Model (PRM) to improve this task in two places: it provides process rewards during reinforcement learning, and it guides test-time search over candidate reasoning paths.
 
