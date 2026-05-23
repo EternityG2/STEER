@@ -1,0 +1,6 @@
+[submodule "verl"]
+	path = verl
+	url = https://github.com/verl-project/verl.git
+[submodule "OpenRLHF"]
+	path = OpenRLHF
+	url = https://github.com/OpenRLHF/OpenRLHF.git
